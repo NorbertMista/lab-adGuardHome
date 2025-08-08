@@ -30,10 +30,11 @@
 ```
 .
 ├── README.md
+├── docker-compose.yml 
 ├── docs/
-│   └── screenshots/
-├── config/
-    └── white-lists/
+│ └── screenshots/ # UI screenshots
+└── config/
+└── example-filters/ 
 ```
 
 ## To future implementation
