@@ -1,7 +1,7 @@
-version: "3.9"  # wersja składni docker-compose
+version: "3.9"
 
 services:
-  adguard:  # nazwa kontenera
+  adguard:  
     image: adguard/adguardhome
     container_name: adguard
     restart: unless-stopped   
