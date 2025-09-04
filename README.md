@@ -24,23 +24,15 @@
   - `80/tcp` – web interface
   - `3000/tcp` – initial setup wizard
 - Configured to listen on all interfaces (`0.0.0.0`)
-- Accessible from LAN clients via VM IP (`192.168.1.xxx`)
+- Accessible from LAN clients via VM IP (`192.168.0.xxx`)
 
 ## Repository structure
 ```
 .
 ├── README.md
 ├── docker-compose.yml 
-├── docs/
-│ └── screenshots/ # UI screenshots
-└── config/
-└── example-filters/ 
+└── docs/screenshots/ # UI screenshots
+
 ```
 
-## To future implementation
-- Add DNS blocklists (ads, tracking, malware)
-- Enable DoH (DNS-over-HTTPS) for clients
-- Configure AdGuard Home statistics and reporting
-- Integrate with NGFW (Sophos XG) as upstream DNS
-- Backup & restore scripts for configuration
-- Example client configuration guides (Windows, macOS, Android, iOS)
+
